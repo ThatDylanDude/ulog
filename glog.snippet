@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>GEngine_DebugMessage</Title>
+            <Shortcut>glog</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CPP">
+                <![CDATA[if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage($Key$, $Time$, FColor::$Color$, TEXT("$Data$"));
+        }]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>Key</ID>
+                    <Default>0</Default>
+                </Literal>
+                <Literal>
+                    <ID>Time</ID>
+                    <Default>60.f</Default>
+                </Literal>
+                <Literal>
+                    <ID>Color</ID>
+                    <Default>Green</Default>
+                </Literal>
+                <Literal>
+                    <ID>Data</ID>
+                    <Default></Default>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
