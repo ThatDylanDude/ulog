@@ -9,7 +9,8 @@
             <Code Language="CPP">
                 <![CDATA[if (GEngine)
         {
-            GEngine->AddOnScreenDebugMessage($Key$, $Time$, FColor::$Color$, TEXT("$Data$"));
+            FString Message = FString::Printf(TEXT("$Message$")$Args$);
+            GEngine->AddOnScreenDebugMessage($Key$, $Time$, FColor::$Color$, Message);
         }]]>
             </Code>
             <Declarations>
@@ -26,7 +27,11 @@
                     <Default>Green</Default>
                 </Literal>
                 <Literal>
-                    <ID>Data</ID>
+                    <ID>Message</ID>
+                    <Default></Default>
+                </Literal> 
+                <Literal>
+                    <ID>Args</ID>
                     <Default></Default>
                 </Literal>
             </Declarations>
