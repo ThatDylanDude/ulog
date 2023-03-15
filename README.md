@@ -1,11 +1,14 @@
 # ulog & glog
 
-Simple snippets for Unreal Engine in Visual Studio. 
+Simple snippets for Unreal Engine in Visual Studio. All relevant arguments are editable by tabbing thru them such as your typical 'for loop' snippet.
 
+&nbsp;
 
 Type ulog and hit tab to expand to: 
 
     UE_LOG(LogTemp, Display, TEXT("")).
+
+&nbsp;
 
 Type glog and hit tab to expand to:
 
@@ -15,8 +18,9 @@ Type glog and hit tab to expand to:
         GEngine->AddOnScreenDebugMessage(0, 60.f, FColor::Green, Message);
     }
 
+&nbsp;
 
-To Install:
+### To Install:
 
 1) Download the snippets and save them wherever. By default Visual Studio creates "Documents/Visual Studio < Year >/Code Snippets/< Languages >/My Code Snippets". I would recommend downloading to "Documents/Visual Studio < Year >/Code Snippets/C++/My Code Snippets"
 
