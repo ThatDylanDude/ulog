@@ -1,6 +1,6 @@
 # ulog & glog
 
-Simple snippets for Unreal Engine in Visual Studio. All relevant arguments are editable by tabbing thru them such as your typical 'for loop' snippet.
+Simple snippets for Unreal Engine in Visual Studio. All relevant arguments are editable by tabbing thru them such just like your typical 'for loop' snippet.
 
 &nbsp;
 
