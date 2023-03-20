@@ -6,7 +6,7 @@ Simple snippets for Unreal Engine in Visual Studio. All relevant arguments are e
 
 Type ulog and hit tab to expand to: 
 
-    UE_LOG(LogTemp, Display, TEXT("")).
+    UE_LOG(LogTemp, Display, TEXT(""));
 
 &nbsp;
 
